@@ -100,6 +100,8 @@ var NoSleep = function () {
       // Set up no sleep video element
       this.noSleepVideo = document.createElement('video');
 
+      this.noSleepVideo.setAttribute('title', 'Golden Hero Games');
+      // this.noSleepVideo.setAttribute('muted', 'true');
       this.noSleepVideo.setAttribute('playsinline', '');
       this.noSleepVideo.setAttribute('src', mediaFile);
 
